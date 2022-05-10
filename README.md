@@ -10,16 +10,11 @@ The dataset describes Cardiovascular diseases (CVDs). Four out of 5CVD deaths ar
 
 The heart attack data is in a csv format.  It was downloaded from the Kaggle page here: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction. 
 
-This is loaded into the model.
+We have data for each of the following features: Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR, ExerciseAngina, Oldpeak, ST_Slope. Finally, in the column HeartDisease is the value that we would like to predict. The  0 and 1 predicts whether the event was a heart attack or not.
 
-
-
-### Task
-We will
-### Access
-*TODO*: Explain how you are accessing the data in your workspace.
 
 ## Automated ML
+First  I have ran the Automated ML. 
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
 ### Results
