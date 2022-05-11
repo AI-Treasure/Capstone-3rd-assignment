@@ -1,4 +1,4 @@
-# Heart attach prediction
+# Heart attack prediction
 
 In my Capstone project, I used the Heart attack data from a Kaggle competition. With this dataset I have built a Hyperdrive and AutoML model. Furthermore, for the AutoML model, I have deployed the best model as a webservice. 
 
