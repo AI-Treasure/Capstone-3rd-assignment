@@ -15,6 +15,8 @@ We have data for each of the following features: Age, Sex, ChestPainType, Restin
 
 ## Automated ML
 First  I have ran the Automated ML. 
+
+![](pictures/settingsautml.png)
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
 ### Results
