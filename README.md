@@ -18,6 +18,13 @@ First  I have ran the Automated ML with the settings below. So the experiment wi
 
 <img src="pictures/settingsautml.png" width="300" >
 
+
+### Results
+
+The screenshots below give the results for the AutoMl. The best model from AutoML has a accuracy of 88%.
+
+There are many ways in which this can be improved. First of all, one could experiment with the times that the model runs. Maybe results would be better if we run it for a longer time. One could also try to have higher number of cross validations. Personally, I am not always a fan of voting ensembles, so I would probably not use a voting ensemble, but just one of the models that are part of the voting ensemble and maybe play some more with their hyperparameter settings.
+
 ![](pictures/automl1.GIF)
 ![](pictures/automl2.GIF)
 ![](pictures/automl3.GIF)
@@ -40,13 +47,6 @@ First  I have ran the Automated ML with the settings below. So the experiment wi
 ![](pictures/automl19.GIF)
 ![](pictures/automl20.GIF)
 
-### Results
-
-There are many ways in which this can be improved. First of all, one could experiment with the times that the model runs. Maybe results would be better if we run it for a longer time. One could also try to have higher number of cross validations. Personally, I am not always a fan of voting ensembles, so I would probably not use a voting ensemble, but just one of the models that are part of the voting ensemble and maybe play some more with their hyperparameter settings. 
-
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
 
@@ -61,16 +61,18 @@ Note that before handing the data to the SVM model, we have performed one hot en
 
 These experiments can easily be improved. For starters, the range for which I run the model can be made much larger, with more values. But this was beyond the scope of this project. Furthermore, maybe one could perform scaling and maybe some more cleaning methods. Also it would make sense to try out different models like for instance Random Forest or other models.
 
+![](pictures/hyper1.GIF)
+![](pictures/hyper2.GIF)
+![](pictures/hyper3.GIF)
+![](pictures/hyper4.GIF)
+![](pictures/hyper5.GIF)
+![](pictures/hyper6.GIF)
+![](pictures/hyper7.GIF)
+![](pictures/hyper8.GIF)
+![](pictures/hyper9.GIF)
+![](pictures/hyper10.GIF)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
-## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+The recording of my model can be found in this github repository. (I was not allowed to place it on youtube.)
 
-The recording of my model can be found in thsi github repository.
