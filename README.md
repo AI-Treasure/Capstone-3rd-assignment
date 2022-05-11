@@ -52,12 +52,11 @@ There are many ways in which this can be improved. First of all, one could exper
 
 For the hyperparameter tuning, I have used the RBF Support Vector Machine (the SVC model). See https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html. SKlearn has several options to do classification. And I just wanted to try out the SVM for once. This SVC model has two parameters, namely a regularization parameter C and the gamma. 
 
-I used the following set of variables to run the model. In total I had runs, where C is .... and gamma is .... .
-
+I used the following set of variables to run the model. In total I had runs, where C is 1,10 or 100 and gamma is 0.02, 0.2 or 2.
 Note that before handing the data to the SVM model, we have performed one hot encoding.
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? 
+The best performing of the 9 models had an accuracy of 67% for C=100 and gamma= 0.02. This is lower than the value obtained with AUTOML above.
 
 These experiments can easily be improved. For starters, the range for which I run the model can be made much larger, with more values. But this was beyond the scope of this project. Furthermore, maybe one could perform scaling and maybe some more cleaning methods. Also it would make sense to try out different models like for instance Random Forest or other models.
 
