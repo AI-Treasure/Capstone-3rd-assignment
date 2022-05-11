@@ -1,6 +1,6 @@
 # Heart attach prediction
 
-In my Capstone project, I use the Heart attack data from a Kaggle competition. With this dataset I have built a Hyperdrive and AutoML model. Furthermore, for the AutoML model, U have deployed the best model as a webservice. 
+In my Capstone project, I used the Heart attack data from a Kaggle competition. With this dataset I have built a Hyperdrive and AutoML model. Furthermore, for the AutoML model, I have deployed the best model as a webservice. 
 
 ## Project Set Up and Installation
 
@@ -51,5 +51,4 @@ These experiments can easily be improved. For starters, the range for which I ru
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+The recording of my model can be found in thsi github repository.
