@@ -18,6 +18,28 @@ First  I have ran the Automated ML with the settings below. So the experiment wi
 
 <img src="pictures/settingsautml.png" width="300" >
 
+![](pictures/automl1.GIF)
+![](pictures/automl2.GIF)
+![](pictures/automl3.GIF)
+![](pictures/automl4.GIF)
+![](pictures/automl5.GIF)
+![](pictures/automl6.GIF)
+![](pictures/automl7.GIF)
+![](pictures/automl8.GIF)
+![](pictures/automl9.GIF)
+![](pictures/automl10.GIF)
+
+![](pictures/automl11.GIF)
+![](pictures/automl12.GIF)
+![](pictures/automl13.GIF)
+![](pictures/automl14.GIF)
+![](pictures/automl15.GIF)
+![](pictures/automl16.GIF)
+![](pictures/automl17.GIF)
+![](pictures/automl18.GIF)
+![](pictures/automl19.GIF)
+![](pictures/automl20.GIF)
+
 ### Results
 
 There are many ways in which this can be improved. First of all, one could experiment with the times that the model runs. Maybe results would be better if we run it for a longer time. One could also try to have higher number of cross validations. Personally, I am not always a fan of voting ensembles, so I would probably not use a voting ensemble, but just one of the models that are part of the voting ensemble and maybe play some more with their hyperparameter settings. 
