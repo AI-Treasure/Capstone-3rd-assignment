@@ -14,18 +14,25 @@ We have data for each of the following features: Age, Sex, ChestPainType, Restin
 
 
 ## Automated ML
-First  I have ran the Automated ML. 
+First  I have ran the Automated ML with the settings below. So the experiment will time out after 30 minutes and early stopping is enabled. Note that this is my intend to get the best model ever, because otherwise you might want to experiment with different running times. The aim is merely to generate working code for classification that will set up an autoML run. 
 
-![](pictures/settingsautml.png)
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+<img src="pictures/settingsautml.png" width="300" >
 
 ### Results
+
+There are many ways in which this can be improved. First of all, one could experiment with the times that the model runs. Maybe results would be better if we run it for a longer time. One could also try to have higher number of cross validations. Personally, I am not always a fan of voting ensembles, so I would probably not use a voting ensemble, but just one of the models that are part of the voting ensemble and maybe play some more with their hyperparameter settings. 
+
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+For the hyperparameter tuning, I have used the RBF Support Vector Machine (the SVC model). See https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html. SKlearn has several options to do classification. And I just wanted to try out the SVM for once. 
+
+This SVC model has two parameters, namely a regularization parameter C and the gamma. 
+
+What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 
 ### Results
