@@ -28,15 +28,17 @@ There are many ways in which this can be improved. First of all, one could exper
 
 ## Hyperparameter Tuning
 
-For the hyperparameter tuning, I have used the RBF Support Vector Machine (the SVC model). See https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html. SKlearn has several options to do classification. And I just wanted to try out the SVM for once. 
+For the hyperparameter tuning, I have used the RBF Support Vector Machine (the SVC model). See https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html. SKlearn has several options to do classification. And I just wanted to try out the SVM for once. This SVC model has two parameters, namely a regularization parameter C and the gamma. 
 
-This SVC model has two parameters, namely a regularization parameter C and the gamma. 
+I used the following set of variables to run the model. In total I had runs, where C is .... and gamma is .... .
 
-What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
-
+Note that before handing the data to the SVM model, we have performed one hot encoding.
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+*TODO*: What are the results you got with your model? What were the parameters of the model? 
+
+These experiments can easily be improved. For starters, the range for which I run the model can be made much larger, with more values. But this was beyond the scope of this project. Furthermore, maybe one could perform scaling and maybe some more cleaning methods. Also it would make sense to try out different models like for instance Random Forest or other models.
+
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
